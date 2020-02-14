@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://ayaki-coder.github.io/rsschool-cv/cv
