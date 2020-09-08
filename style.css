@@ -1,0 +1,183 @@
+body { 
+    background: whitesmoke ;
+    font-size: 24px;
+    font-family:"Arial", sans-serif;
+  
+    
+}
+.container {
+    max-width: 1024px; 
+    margin: 0 auto;
+    background-image: url("hero-bg.jpg");
+    background-repeat: no-repeat;
+}
+ 
+header,
+footer{
+    background-color: rgba(56, 195, 241, 0.76);
+    text-align: right;
+    padding-right: 20px; 
+    
+}   
+    
+
+.site-header{
+    
+    margin: 0 0 180px;
+    padding: 32px 0 32px;
+   
+}
+.site-header a,
+.site-footer a {
+    margin-left: 56px;
+    color:white;
+    text-decoration: none; 
+    background-repeat: no-repeat; 
+    background-position: left; 
+}
+  .header-email,
+  .footer-email {
+    padding-left: 30px;
+    background-image: url("icon-email.svg");
+}
+
+  .header-phone,
+  .footer-phone {
+    padding-left: 25px;
+    background-image: url("icon-phone.svg");
+}
+  .site-footer{
+     padding: 18px 0 18px; 
+     font-size: 0.9rem; } 
+
+     .name-in-footer{
+         text-align: center;
+         color: white;
+     }
+
+ 
+ h1 {
+    display: none;
+} 
+.topbutton{
+    border: solid 2px rgb(255, 123, 0);
+    width: 40px;
+
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 15px ;
+    position: fixed;
+    right: 20px;
+    bottom: 20%;
+    
+}
+.topbutton a{
+    color: rgb(30, 49, 49);
+}
+.subheading{
+    font-size: 2rem;
+   border-bottom: solid 5px rgb(26, 65, 102) ; 
+   
+}
+
+section {
+    margin: 0 50px 100px ;
+    
+} 
+
+.intro-container{
+    height:400px;
+    padding: 0;
+    border-left: none;
+
+}
+
+.intro-text {
+    vertical-align:bottom;
+    width: 50%;
+    background-color: rgb(26, 65, 102);
+    color: rgb(255, 123, 0);
+    text-align: right;
+    display: inline-block;
+    padding-right: 15px;
+   font-size: 1.6rem;
+   font-weight: 600;
+}
+
+
+.avatar {
+    vertical-align:bottom;
+    height: 100%;
+   }
+
+.profession {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.test {
+  display: inline-block;
+  width: 23%;
+  border-left: solid 10px rgba(56, 195, 241, 0.76) ;
+ 
+}
+dt,
+dd{
+    text-align: center;
+    
+}
+.level {
+    margin: 15px 15px;
+    padding: 0;
+    height: 14px;
+    font-size: 0;
+    background-color:whitesmoke;
+    border: 1px solid   rgb(30, 30, 97);
+    border-radius: 8px;}
+
+    .level div  {
+    margin: 1px;
+    height: 12px;
+    background-color: rgb(255, 123, 0);
+    border-radius: 6px;
+    }
+    span {
+        font-style: italic;
+        font-weight: 700;
+    }
+    .basic {
+        width: 20%;
+    }
+    .beginner{
+        width: 5%
+    }
+    .skills-list div:hover{
+
+        background-color: rgba(14, 14, 99, 0.363);
+        color: white;
+        border:none;
+        font-size:2rem ;
+
+    }
+    .skills-list div:hover .level{
+        display: none;
+    }
+     .skills-list div:hover .words{
+        display:block;
+        font-style: italic;
+    }
+    .words{
+        display:none;
+    }
+section a:link{
+    color:  rgb(255, 123, 0);
+}
+section a:visited{
+    color:rgba(56, 195, 241, 0.76);
+}
+section a:hover{
+    background-color:rgba(14, 14, 99, 0.363);
+    color:white;
+}
